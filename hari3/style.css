@@ -20,8 +20,8 @@ body {
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background: var(--bg-primary);
-}
+    background: var(--text-secondary);
+} 
 
 .wrapper {
     display: flex;
@@ -66,14 +66,15 @@ body {
     cursor: pointer;
     border: none;
     width: 100px;
+    background-color: var(--bg-primary);
 }
 
 .btn:hover {
-    background-color: var(--bg-primary);
+    background-color: var(--icons-bg-secondary);
     color: var(--text-primary);
-    -ms-transform: rotate(2deg);
-    transform: rotate(2deg);
-    transition: .3s ease-in-out;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    transition: .5s ease-in-out;
 }
 
 .container2 {
@@ -97,7 +98,7 @@ body {
         font-size: 1.5em;
     }
     .btn {
-        padding: 16px;
+        /* padding: 16px; */
         font-size: 1.5em;
     }
 }

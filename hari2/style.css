@@ -46,6 +46,7 @@ header {
 
 .navbar .logo {
     font-size: 1.5rem;
+    color: orange;
     font-weight: bold;
 }
 
@@ -71,16 +72,16 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2s ease; /* Fixed "scale" to "0.2s" */
+    transition: scale 0.2s ease;
 }
 
 .action_btn:hover {
-    transform: scale(1.05); /* Fixed "scale" to "transform" */
+    transform: scale(1.05);
     color: #fff;
 }
 
 .action_btn:active {
-    transform: scale(0.95); /* Fixed "scale" to "transform" */
+    transform: scale(0.95);
 }
 
 /* DROP MENU */
